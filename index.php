@@ -11,8 +11,6 @@
             $_SESSION["user"] = $_POST["user"];
         }
 
-
-        echo strlen($_POST["mdp"]);
     }else{
         if (isset($_POST["mdp"]) AND empty($_POST["mdp"])) {
             $errors[0] = "This field is required";
